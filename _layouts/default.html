@@ -11,9 +11,9 @@
 
 <header>
 
-    <a href="/"><img src="/images/monkey.svg" width="200" class="monkey" /></a>
+    <a href="/"><img src="/images/monkey.svg" class="monkey" /></a>
 
-    <h1><a href="/" class="logo">Purple Monkey Game Jam</a></h1>
+    <h1 class="logo"><a href="/">Purple Monkey Game Jam</a></h1>
 
     <h2 class="month">February 2014</h2>
 
@@ -24,6 +24,8 @@
 </header>
 
 <div class="content">
+
+{% if page.title %}<h2>{{page.title}}</h2>{% endif %}
 
 {{content}}
 
