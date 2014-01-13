@@ -63,6 +63,7 @@ footer {
 
 .button {
     display: inline-block;
+    margin: 0 0 1em;
     padding: .7em 1.4em;
     font-size: .8em;
     line-height: 1.3em;
