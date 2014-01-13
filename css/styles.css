@@ -14,6 +14,10 @@ a {
     color: #705CA0;
 }
 
+img {
+    border: 0;
+}
+
 header {
     color: #fff;
     font-size: 1.3em;
