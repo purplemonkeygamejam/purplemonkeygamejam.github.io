@@ -18,7 +18,7 @@ img {
     border: 0;
 }
 
-header {
+.header {
     color: #fff;
     font-size: 1.3em;
     text-align: center;
@@ -28,7 +28,7 @@ header {
     -webkit-font-smoothing: antialiased;
 }
 
-footer {
+.footer {
     margin: 4em 0;
     color: #888;
     font-size: .75em;
