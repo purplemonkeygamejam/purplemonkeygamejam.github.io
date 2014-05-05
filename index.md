@@ -6,7 +6,7 @@ description: Once again the game jam is afoot! The next Purple Monkey Game Jam i
 
 We'll be taking theme submissions from now until June 12th, and we will unveil the winner the first day of the event. Participants will then have the entire weekend to make a game, from scratch, based on the winning theme.
 
-Free registration for the event is being done through our [EventBrite page](#). Remember to [submit your theme ideas here](/theme-submission/#form) before June 12th!
+Free registration for the event is being done through our [EventBrite page](https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211). Remember to [submit your theme ideas here](/theme-submission/#form) before June 12th!
 
 Any questions, feel free to email us: [boston-game-jam@cantina.co](mailto:boston-game-jam@cantina.co)
 
