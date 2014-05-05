@@ -9,8 +9,10 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="purplemonkeygj">
-<meta name="twitter:title" content="Purple Monkey Game Jam">
-<meta name="twitter:description" content="We did it once, we're doing it again. The Purple Monkey Game Jam is back and better than ever! Come out and join us us for an entire weekend of making games, playing games, talking about games ... just generally game-oriented festivities all around. It's going to be great!">
+<meta name="twitter:title" content="Purple Monkey Game Jam{% if page.title %} &mdash; {{page.title}}{% endif %}">
+{% if page.description %}
+<meta name="twitter:description" content="{{page.description | markdownify | strip_html}}">
+{% endif %}
 <meta name="twitter:creator" content="purplemonkeygj">
 <meta name="twitter:image:src" content="http://purplemonkeygamejam.com/images/monkey.png">
 <meta name="twitter:domain" content="http://purplemonkeygamejam.com/">
@@ -25,11 +27,13 @@
 
     <h1 class="logo"><a href="/">Purple Monkey Game Jam</a></h1>
 
-    <h2 class="month">February 2014</h2>
+    <h2 class="month">June 2014</h2>
 
-    <p class="date"><i>22nd &amp; 23rd</i></p>
+    <p class="date"><i>14th &amp; 15th</i></p>
 
-    <p><a href="http://www.eventbrite.com/e/purple-monkey-game-jam-ii-the-gamening-tickets-10123574885" class="button">Register Now!</a> <a href="/theme-submission/#form" class="button">Theme Submission</a></p>
+    <p><a href="#" class="button">Register Now!</a> <a href="/theme-submission/#form" class="button">Theme Submission</a></p>
+
+    <span class="photo-credit">Photo credit: <a href="http://www.flickr.com/photos/billdamon/12863646824/">BillDamon</a></span>
 
 </div>
 
@@ -37,15 +41,19 @@
 
 {% if page.title %}<h2>{{page.title}}</h2>{% endif %}
 
+{% if page.description %}
+<p>{{page.description | markdownify}}</p>
+{% endif %}
+
 {{content}}
 
 </div>
 
 <div class="footer">
 
-    <p>Made possible by the good folk at <a href="http://cantina.co/">Cantina Consulting</a>.</p>
+    <p><a href="/blog">Blog</a> &mdash; <a href="/getting-started">Getting Started</a> &mdash; <a href="/harassment-policy">Harassment Policy</a> &mdash; <a href="/sponsors">Sponsors</a></p>
 
-    <p><a href="http://cantina.co/"><img src="http://cantina.co/wp-content/themes/twentythirteen-cantina/images/logo-color-dark.svg" /></a></p>
+    <p><span class="no-break">Email us at <a href="mailto:boston-game-jam@cantina.co">boston-game-jam@cantina.co</a></span> &mdash; <span class="no-break">Follow us at <a href="http://twitter.com/@purplemonkeygj">@purplemonkeygj</a></span></p>
 
 </div>
 

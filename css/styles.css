@@ -19,17 +19,31 @@ img {
 }
 
 .header {
+    position: relative;
     color: #fff;
     font-size: 1.3em;
     text-align: center;
     border-bottom: .5em solid #705CA0;
-    background: #45374a url('/images/background.jpg') 0 100%;
+    background: #45374a;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('/images/boston.jpg');
+    background-position: center top;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
 }
 
+.photo-credit {
+    position: absolute;
+    bottom: .5em;
+    right: .5em;
+    font-size: .5em;
+}
+
+.photo-credit a {
+    color: inherit;
+}
+
 .footer {
-    margin: 4em 0;
+    margin: 4em 1em;
     color: #888;
     font-size: .75em;
     font-style: italic;
@@ -81,6 +95,21 @@ img {
     margin: 0 auto;
     padding: 1em;
     max-width: 800px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content a {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.no-break {
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 600px) {

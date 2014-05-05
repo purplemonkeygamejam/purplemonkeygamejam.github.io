@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Theme Submission
+title: Harassment Policy
 ---
 
 Coming Soon
