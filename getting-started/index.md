@@ -8,7 +8,8 @@ Below is a list of helpful resources to take advantage of during the game jam.
 ###Reading
 
 - [Game Programming Patterns](http://gameprogrammingpatterns.com)
-- [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/);
+- [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/)
+- [Game Mechanics Explorer](http://gamemechanicexplorer.com/)
 
 ###JavaScript
 
