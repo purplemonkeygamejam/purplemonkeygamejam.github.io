@@ -22,6 +22,9 @@
 <body>
 
 <div class="nav">
+
+    <a href="#nav" class="pancake">☰</a>
+
     <ul>
 
         <li><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211">Register Now!</a></li>
@@ -88,6 +91,29 @@
     <p>Proudly sponsored by <a href="http://cantina.co/"><img src="http://cantina.co/wp-content/themes/twentythirteen-cantina/images/logo-color-dark.svg" width="100" /></a></p>
 
 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+(function () {
+
+    'use strict';
+
+    var $pancake = $('.pancake'),
+        $nav = $('.nav ul');
+
+    $pancake.on('click', function (e) {
+
+        e.preventDefault();
+
+        $nav.toggle();
+
+    });
+
+}());
+
+</script>
 
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

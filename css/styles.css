@@ -28,7 +28,17 @@ p img {
     background: #705CA0;
 }
 
+.nav a {
+    color: inherit;
+    display: block;
+    padding: 1em;
+    line-height: 1em;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
 .nav ul {
+    display: none;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -39,13 +49,11 @@ p img {
     display: block;
 }
 
-.nav ul li a {
-    color: inherit;
-    display: block;
-    padding: 1em;
-    line-height: 1em;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+.nav .pancake {
+    font-size: 1.6em;
+    padding: .5em;
+    text-align: right;
+    background-color: #5B4A7C;
 }
 
 .header {
@@ -153,8 +161,16 @@ p img {
         font-size: 1.3em;
     }
 
+    .nav ul {
+        display: block;
+    }
+
     .nav ul li {
         display: inline-block;
+    }
+
+    .nav .pancake {
+        display: none;
     }
 
 }
