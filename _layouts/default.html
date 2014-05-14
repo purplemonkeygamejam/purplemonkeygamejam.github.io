@@ -21,7 +21,23 @@
 
 <body>
 
-<div class="header">
+<div class="nav">
+    <ul>
+
+        <li><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211">Register Now!</a></li>
+        <li><a href="/theme-submission/">Theme Submission</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/getting-started">Getting Started</a></li>
+        <li><a href="/harassment-policy">Harassment Policy</a></li>
+        <li><a href="/sponsors">Sponsors</a></li>
+
+    </ul>
+
+</div>
+
+{% if page.hero %}
+
+<div class="header hero">
 
     <a href="/"><img src="/images/monkey.svg" class="monkey" /></a>
 
@@ -31,11 +47,25 @@
 
     <p class="date"><i>14th &amp; 15th</i></p>
 
-    <p><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211" class="button">Register Now!</a> <a href="/theme-submission/#form" class="button">Theme Submission</a></p>
+    <p><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211" class="button">Register Now!</a> <a href="/theme-submission/" class="button">Theme Submission</a></p>
 
     <span class="photo-credit">Photo credit: <a href="http://www.flickr.com/photos/billdamon/12863646824/">BillDamon</a></span>
 
 </div>
+
+{% else %}
+
+<div class="header">
+
+    <h1 class="logo"><a href="/">Purple Monkey Game Jam</a></h1>
+
+    <h2 class="month">June 2014</h2>
+
+    <p class="date"><i>14th &amp; 15th</i></p>
+
+</div>
+
+{% endif %}
 
 <div class="content">
 
@@ -54,6 +84,8 @@
     <p><a href="/blog">Blog</a> &mdash; <a href="/getting-started">Getting Started</a> &mdash; <a href="/harassment-policy">Harassment Policy</a> &mdash; <a href="/sponsors">Sponsors</a></p>
 
     <p><span class="no-break">Email us at <a href="mailto:boston-game-jam@cantina.co">boston-game-jam@cantina.co</a></span> &mdash; <span class="no-break">Follow us at <a href="http://twitter.com/@purplemonkeygj">@purplemonkeygj</a></span></p>
+
+    <p>Proudly sponsored by <a href="http://cantina.co/"><img src="http://cantina.co/wp-content/themes/twentythirteen-cantina/images/logo-color-dark.svg" width="100" /></a></p>
 
 </div>
 

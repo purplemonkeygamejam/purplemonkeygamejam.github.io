@@ -11,6 +11,10 @@ Below is a list of helpful resources to take advantage of during the game jam.
 - [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/)
 - [Game Mechanics Explorer](http://gamemechanicexplorer.com/)
 
+##No-Code
+
+- [Stencyl](http://www.stencyl.com/)
+
 ###JavaScript
 
 - [Phaser](http://phaser.io/) Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
