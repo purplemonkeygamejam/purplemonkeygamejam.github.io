@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Harassment Policy
+title: The Purple Monkey Game Jam Anti-Harassment Policy
 ---
-The Purple Monkey Game Jam Anti-Harassment Policy
-=================================================
 
 The Purple Monkey Game Jam is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of game jam participants in any form. Sexual language and imagery is not appropriate at any time during the event. Participants violating these rules will be expelled from the game jam and barred from attending future events.
 
