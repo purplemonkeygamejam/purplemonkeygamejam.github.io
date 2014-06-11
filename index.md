@@ -23,14 +23,14 @@ And remember to follow us on twitter [@purplemonkeygj](http://twitter.com/@purpl
 
 June 14th
 
-- **8:00am** - Doors Open / Breakfast
-- **9:00am** - Keynote
+- **9:00am** - Doors Open / Breakfast
+- **10:00am** - Keynote
 - **12:00pm** - Lunch
 - **8:00pm** - End of day
 
 June 15th
 
-- **8:00am** - Doors Open / Breakfast
+- **9:00am** - Doors Open / Breakfast
 - **12:00pm** - Lunch
 - **5:00pm** - Demos
 - **7:00pm** - End of event
