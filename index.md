@@ -1,13 +1,12 @@
 ---
 hero: true
 layout: default
-title: June 2014, 14th and 15th
 description: Once again the game jam is afoot! The next Purple Monkey Game Jam is just around the corner and if [the last game jam](/blog/february-2014-recap) is any indication this one will be unforgettable! Same as before the game jam is open for anyone who has any interest in game development and there are no restrictions on the technology (or lack thereof) used to make a game.
 ---
 
-We'll be taking theme submissions from now until June 12th, and we will unveil the winner the first day of the event. Participants will then have the entire weekend to make a game, from scratch, based on the winning theme.
+We'll be taking theme submissions from now until {{ site.data.event.month }} {{ site.data.event.dates[0] }}, and we will unveil the winner the first day of the event. Participants will then have the entire weekend to make a game, from scratch, based on the winning theme.
 
-Free registration for the event is being done through our [EventBrite page](https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211). Remember to [submit your theme ideas here](/theme-submission/) before June 12th!
+Free registration for the event is being done through our [EventBrite page]({{ site.data.event.register_url }}). Remember to [submit your theme ideas here](/theme-submission/) before {{ site.data.event.month }} {{ site.data.event.dates[0] }}!
 
 Any questions, feel free to email us: [boston-game-jam@cantina.co](mailto:boston-game-jam@cantina.co)
 
@@ -21,14 +20,14 @@ And remember to follow us on twitter [@purplemonkeygj](http://twitter.com/@purpl
 
 ##Schedule
 
-June 14th
+{{ site.data.event.month }} {{ site.data.event.dates[0] }}
 
 - **9:00am** - Doors Open / Breakfast
 - **10:00am** - Keynote
 - **12:00pm** - Lunch
 - **8:00pm** - End of day
 
-June 15th
+{{ site.data.event.month }} {{ site.data.event.dates[1] }}
 
 - **9:00am** - Doors Open / Breakfast
 - **12:00pm** - Lunch

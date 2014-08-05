@@ -21,7 +21,7 @@ In a game jam you have limited time to make a game; you need to stick to a proce
 ## You are rewarded with a finished game that you created
 When you are learning a new creative skill, one of the most encouraging things is generating something tangible. Game jams give you this. When you participate you will walk away with something *playable*. This is a much more certain outcome than starting out on your own with no guidelines, no pressure, and no in-person help. Once you make your first game, you will have all of the basic experience to do it again!
 
-Game jams are an invaluable tool for learning how to make games, but they are also a lot of fun. There are few activities that give you such a major return on your time investment. If you are curious about game development then [sign up for our next game jam](https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211) (it's free). 
+Game jams are an invaluable tool for learning how to make games, but they are also a lot of fun. There are few activities that give you such a major return on your time investment. If you are curious about game development then [sign up for our next game jam]({{ site.data.event.register_url }}) (it's free). 
 
 ```
 Mike Leonardo and his brother Rich make up Forge Ahead Studios who

@@ -3,13 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="initial-scale=1" />
-<title>Purple Monkey Game Jam{% if page.title %} &mdash; {{page.title}}{% endif %}</title>
+<title>Purple Monkey Game Jam - {{ site.data.event.month }} {{ site.data.event.year }}, {{ site.data.event.dates[0] }} and {{ site.data.event.dates[1] }} {% if page.title %} &mdash; {{page.title}}{% endif %}</title>
 <link rel="stylesheet" type="text/css" href="/css/styles.css">
 <link rel="image_src" href="http://purplemonkeygamejam.com/images/monkey.png">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="purplemonkeygj">
-<meta name="twitter:title" content="Purple Monkey Game Jam{% if page.title %} &mdash; {{page.title}}{% endif %}">
 {% if page.description %}
 <meta name="twitter:description" content="{{page.description | markdownify | strip_html}}">
 {% endif %}
@@ -27,7 +26,7 @@
 
     <ul>
 
-        <li><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211">Register Now!</a></li>
+        <li><a href="{{ site.data.event.register_url }}">Register Now!</a></li>
         <li><a href="/theme-submission/">Theme Submission</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/getting-started">Getting Started</a></li>
@@ -46,11 +45,11 @@
 
     <h1 class="logo"><a href="/">Purple Monkey Game Jam</a></h1>
 
-    <h2 class="month">June 2014</h2>
+    <h2 class="month">{{ site.data.event.month }} {{ site.data.event.year }}</h2>
 
-    <p class="date"><i>14th &amp; 15th</i></p>
+    <p class="date"><i>{{ site.data.event.dates[0] }} and {{ site.data.event.dates[1] }}</i></p>
 
-    <p><a href="https://www.eventbrite.com/e/purple-monkey-game-jam-iv-a-new-hope-tickets-11432933211" class="button">Register Now!</a> <a href="/theme-submission/" class="button">Theme Submission</a></p>
+    <p><a href="{{ site.data.event.register_url }}" class="button">Register Now!</a> <a href="/theme-submission/" class="button">Theme Submission</a></p>
 
     <span class="photo-credit">Photo credit: <a href="http://www.flickr.com/photos/billdamon/12863646824/">BillDamon</a></span>
 
@@ -62,9 +61,9 @@
 
     <h1 class="logo"><a href="/">Purple Monkey Game Jam</a></h1>
 
-    <h2 class="month">June 2014</h2>
+    <h2 class="month">October 2014</h2>
 
-    <p class="date"><i>14th &amp; 15th</i></p>
+    <p class="date"><i>18th and 19th</i></p>
 
 </div>
 
