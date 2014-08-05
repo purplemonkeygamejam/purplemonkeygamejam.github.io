@@ -161,7 +161,7 @@ p img {
     }
 
     .nav ul {
-        display: block;
+        display: block !important;
     }
 
     .nav ul li {
