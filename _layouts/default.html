@@ -27,6 +27,9 @@
 
     <ul>
 
+        {% if site.data.event.register_url %}
+        <li><a href="{{ site.data.event.register_url }}">Register Now!</a></li>
+        {% endif %}
         <li><a href="/blog">Blog</a></li>
         <li><a href="/getting-started">Getting Started</a></li>
         <li><a href="/harassment-policy">Harassment Policy</a></li>
@@ -48,7 +51,11 @@
 
     <p class="date"><i>{{ site.data.event.dates[0] }} and {{ site.data.event.dates[1] }}</i></p>
 
+    {% if site.data.event.register_url %}
+    <p><a href="{{ site.data.event.register_url }}" class="button">Register Now!</a></p>
+    {% else %}
     <p>Registration opens soon.</p>
+    {% endif %}
 
     <span class="photo-credit">Photo credit: <a href="http://www.flickr.com/photos/billdamon/12863646824/">BillDamon</a></span>
 
