@@ -1,4 +1,4 @@
 name: Purple Monkey Game Jam
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 permalink: blog/:title
