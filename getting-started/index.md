@@ -11,7 +11,7 @@ Below is a list of helpful resources to take advantage of during the game jam.
 - [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/)
 - [Game Mechanics Explorer](http://gamemechanicexplorer.com/)
 
-##No-Code
+###No-Code
 
 - [Stencyl](http://www.stencyl.com/)
 
@@ -27,7 +27,7 @@ Below is a list of helpful resources to take advantage of during the game jam.
 
 - [Love2D](https://love2d.org/) LÖVE is an awesome framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X and Linux.
 
-##Objective-C
+###Objective-C
 
 - [SpriteBuilder](http://www.spritebuilder.com/) SpriteBuilder is a powerful editor for quickly creating 2D games in Objective-C. It’s open source and free to download. SpriteBuilder is the easiest way to develop native games for iOS and Android, simultaneously.
 
