@@ -23,14 +23,14 @@ Any questions, feel free to email us: [admin@purplemonkeygamejam.com](mailto:adm
 ##Schedule
 
 {{ site.data.event.month }} {{ site.data.event.dates[0] }}
-       
+
 - **9:00 a.m.** Doors Open + Breakfast
 - **10:00 a.m.** Keynote & Theme Announcement
 - **12:30 p.m.** Lunch
 - **6:00 p.m.** Dinner
 - **8:00 p.m.** Doors Close   
-       
-{{ site.data.event.month }} {{ site.data.event.dates[1] }}     
+
+{{ site.data.event.month }} {{ site.data.event.dates[1] }}
 
 - **9:00 a.m.** Doors Open + Breakfast
 - **12:30 p.m.** Lunch
