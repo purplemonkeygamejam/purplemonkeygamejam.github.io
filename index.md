@@ -8,7 +8,7 @@ This time we'll be holding the event at [General Assembly](https://generalassemb
 
 Also, we're currently looking for a keynote speaker. Any devs who want to speak, please reach out to us.
 
-Free registration can be done here: <https://generalassemb.ly/education/purple-monkey-game-jam-vi/boston/11323>
+Free registration can be done here: < {{ site.data.event.register_url }}>
 
 Follow us on twitter [@purplemonkeygj](http://twitter.com/@purplemonkeygj) for updates.
 
