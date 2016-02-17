@@ -2,22 +2,47 @@
 layout: default
 ---
 
-<div class="home">
+<section>
 
-  <h1 class="page-heading">Posts</h1>
+    <p>The Purple Monkey Game Jam is a theme-based, non-competitive game jam spanning a full weekend where game makers can come together to practice their craft and learn from each other. A surprise theme will be announced at the beginning of the event and participants can then find a team or work alone to build a game based on the theme by the end of the weekend.</p>
+    <p>Please follow <a href="https://twitter.com/@purplemonkeygj">@purplemonkeygj</a> on Twitter for updates.</a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <h2>Schedule</h2>
 
-</div>
+    <div>
+
+        <div>
+
+            <h3>March 26th</h3>
+
+            <p>9:00 AM<br>Doors Open</p>
+            <p>10:00 AM<br>Keynote &amp; Theme Announcement</p>
+            <p>10:30 AM - 6:00 PM<br>Jam Time</p>
+
+        </div>
+
+        <div>
+
+            <h3>March 27th</h3>
+
+            <p>9:00 PM<br>Doors Open</p>
+
+            <p>10:00 PM - 5:00 PM<br>Jam Time</p>
+
+            <p>5:00 PM - 6:00 PM<br>Play Time and Wrap-Up</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+<a href="{{ site.location_url }}"><img src="/images/map.png"></a>
+
+</section>

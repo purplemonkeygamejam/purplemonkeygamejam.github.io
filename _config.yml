@@ -1,21 +1,8 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Purple Monkey Game Jam
+description: > # The Purple Monkey Game Jam is a theme-based, non-competitive game jam spanning a full weekend where game makers can come together to practice their craft and learn from each other. A surprise theme will be announced at the beginning of the event and participants can then find a team or work alone to build a game based on the theme by the end of the weekend.
+date: March 26th - 27th
+register_url: https://generalassemb.ly/education/purple-monkey-game-jam-vii/boston/21959
+location: 51 Melcher Street, Boston, MA 02210
+location_url: https://www.google.com/maps/place/51+Melcher+St,+Boston,+MA+02210/
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
 markdown: kramdown

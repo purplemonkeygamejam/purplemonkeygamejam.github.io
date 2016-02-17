@@ -1,0 +1,34 @@
+.site-header {
+
+    color: $white;
+    text-align: center;
+    background-image: url('/images/hero-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: $black;
+
+    nav {
+        padding: 0.5rem;
+        text-align: right;
+        a {
+            display: inline-block;
+            padding: 0.5rem;
+            font-size: 0.9em;
+            line-height: 1em;
+            color: inherit;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+
+    .logo {
+        padding: 1em;
+        width: 200px;
+    }
+
+}
+
+.site-footer {
+    text-align: center;
+}
