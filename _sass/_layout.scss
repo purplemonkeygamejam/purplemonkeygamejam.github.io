@@ -2,16 +2,19 @@
 
     color: $white;
     text-align: center;
-    background-image: url('/images/hero-background.jpg');
+    background-image: url('../images/hero-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: $black;
 
     nav {
+
         padding: 0.5rem;
         text-align: right;
+
         a {
+
             display: inline-block;
             padding: 0.5rem;
             font-size: 0.9em;
@@ -19,16 +22,45 @@
             color: inherit;
             text-transform: uppercase;
             text-decoration: none;
+
+            &:hover {
+                opacity: 0.75;
+            }
+
         }
+
     }
 
-    .logo {
-        padding: 1em;
-        width: 200px;
+    .info {
+
+        padding: 3em 2em;
+
+        .title {
+            font-size: 2.5em;
+            line-height: 1.3em;
+            text-transform: uppercase;
+        }
+
+        .logo {
+            padding: 1em;
+            width: 225px;
+        }
+
+        .date {
+            font-size: 2em;
+            line-height: 1.3em;
+            font-weight: 200;
+        }
+
+        .button {
+            font-size: 1.5em;
+        }
+
     }
 
 }
 
 .site-footer {
+    padding: 3em 2em;
     text-align: center;
 }
