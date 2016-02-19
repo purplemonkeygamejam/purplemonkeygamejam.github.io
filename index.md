@@ -6,8 +6,6 @@ description: "We're back! The 7th ever Purple Monkey Game Jam returns to Boston 
 
 This time we'll be holding the event at [General Assembly](https://generalassemb.ly) in downtown Boston, and we're very excited.
 
-Also, we're currently looking for a keynote speaker. Any devs who want to speak, please reach out to us.
-
 Free registration can be done here: <{{ site.data.event.register_url }}>
 
 Follow us on twitter [@purplemonkeygj](http://twitter.com/@purplemonkeygj) for updates.
