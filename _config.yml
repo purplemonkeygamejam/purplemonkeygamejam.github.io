@@ -6,3 +6,4 @@ location: 51 Melcher Street, Boston, MA 02210
 location_url: https://www.google.com/maps/place/51+Melcher+St,+Boston,+MA+02210/
 
 markdown: kramdown
+permalink: blog/:title

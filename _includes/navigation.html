@@ -1,9 +1,12 @@
 <nav>
-
-    <a href="{{ site.register_url }}">Register</a>
-    <a href="#">Blog</a>
-    <a href="#">Getting Started</a>
-    <a href="/code-of-conduct/">Code of Conduct</a>
-    <a href="#">Sponsors</a>
-
+    {% if page.layout != 'default' %}
+    <a href="/"><img src="/images/monkey.png" class="logo"></a>
+    {% endif %}
+    <ul>
+        <li><a href="{{ site.register_url }}">Register</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/getting-started/">Getting Started</a></li>
+        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+        <li><a href="/sponsors/">Sponsors</a></li>
+    </ul>
 </nav>

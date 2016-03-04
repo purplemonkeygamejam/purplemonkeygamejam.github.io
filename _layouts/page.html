@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.name }}Purple Monkey Game Jam</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    {% include navigation.html %}
+
+</header>
+
+<section class="page-content">
+
+    <div class="inner-wrapper">
+
+    {{ content }}
+
+    </div>
+
+</section>
+
+<footer class="site-footer">
+
+    <p><a href="#">Blog</a> • <a href="#">Getting Started</a> • <a href="#">Harassment Policy</a> • <a href="#">Sponsors</a></p>
+    <p>Email us at <a href="mailto:scanlinesbos@gmail.com">scanlinesbos@gmail.com</a> • Follow us at <a href="https://twitter.com/@purplemonkeygj">@purplemonkeygj</a> </p>
+
+</footer>
+
+</body>
+</html>

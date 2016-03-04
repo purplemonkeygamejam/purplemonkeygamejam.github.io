@@ -11,20 +11,42 @@
     nav {
 
         padding: 0.5rem;
-        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        a {
+        .logo {
+            padding: .25em;
+            width: 45px;
+            display: block;
+        }
 
-            display: inline-block;
-            padding: 0.5rem;
-            font-size: 0.9em;
-            line-height: 1em;
-            color: inherit;
-            text-transform: uppercase;
-            text-decoration: none;
+        ul {
 
-            &:hover {
-                opacity: 0.75;
+            flex: 1;
+            text-align: right;
+
+            li {
+
+                display: inline-block;
+                list-style: none;
+
+                a {
+
+                    display: inline-block;
+                    padding: 0.5rem;
+                    font-size: 0.9em;
+                    line-height: 1em;
+                    color: inherit;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                    &:hover {
+                        opacity: 0.75;
+                    }
+
+                }
+
             }
 
         }

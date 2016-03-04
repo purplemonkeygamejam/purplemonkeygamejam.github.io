@@ -1,11 +1,6 @@
 .description {
 
-    padding: 3em;
     text-align: center;
-
-    p {
-        max-width: 50em;
-    }
 
 }
 
@@ -16,12 +11,6 @@
     font-weight: 200;
     text-align: center;
     background-color: $black;
-
-    h3 {
-        font-size: 1.4em;
-        line-height: 1.3em;
-        font-weight: 400;
-    }
 
     p {
 
@@ -37,8 +26,6 @@
     .schedule-row {
 
         overflow: auto;
-        margin: 2em auto;
-        max-width: 30em;
 
         .schedule-col {
             padding: 1em;
