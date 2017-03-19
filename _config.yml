@@ -6,4 +6,3 @@ location: 320 Congress St, First Floor, Boston, MA
 location_url: https://www.google.com/maps/search/320+Congress+St,+First+Floor,+Boston,+MA/@42.3513204,-71.0516749,17z/data=!3m1!4b1
 
 markdown: kramdown
-permalink: blog/:title
