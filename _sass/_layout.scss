@@ -87,3 +87,16 @@
     padding: 3em 2em;
     text-align: center;
 }
+
+.mailinglist-signup {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 50rem;
+}
+
+.mailinglist-signup input[type="text"],
+.mailinglist-signup input[type="email"] {
+    padding: 0.5em !important;
+    font-size: 1em !important;
+    text-indent: 0 !important;
+}
